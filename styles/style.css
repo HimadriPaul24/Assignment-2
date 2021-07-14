@@ -11,7 +11,7 @@ body{
     font-family: 'Roboto', sans-serif;
     background-color:whitesmoke ;
 }
-
+/* top part start  */
 .container{
     max-width: 1300px;
     margin: auto;
@@ -34,13 +34,13 @@ body{
     color: burlywood;
 }
 .col-2 img{
-    max-width: 90%;
+    max-width: 80%;
     padding: 50px 0;
     transition: transform 1.3s ease-in .3s;
 }
 
 .baner:hover{
-    transform: translate(-230px) rotate(360deg);
+    transform: translate(-220px) rotate(360deg);
 }
 
 .col-2 h1{
@@ -54,7 +54,7 @@ body{
 
 .btn{
     padding: 8px 30px;
-    background-color: rgb(219,6,41);
+    background-color: rgb(248, 59, 90);
     margin: 30px 0;
     color: white;
     display: inline-block;
@@ -66,6 +66,87 @@ body{
 .btn:hover{
     background-color:rgb(223, 23, 223);
 }
+
+
+/* top part end  */
+
+
+
+
+
+/* footer part start  */
+.football{
+    width: 200px;
+    margin-left: 550px;
+    margin-bottom: 20px;
+    
+}
+
+footer{
+  text-align: center;
+
+}
+.fooetr-icon{
+    margin-bottom: 51px;
+}
+
+.football img{
+    width: 100%;
+
+}
+.fab.social{
+    color: rgb(136, 130, 130);
+    border: 1px solid rgb(226, 214, 214);
+    border-radius: 70%;
+    background-color: whitesmoke;
+    padding: 3px;
+}
+
+
+
+
+
+/* footer part end  */
+
+
+
+
+/* Media Queries  */
+
+
+
+
+
+
+/* Mobile Devices  */
+
+@media only screen and (max-width:668px){
+    .row{
+         background-color: cadetblue;  
+         display: grid;
+    }
+    .col-2 img{
+        max-width: 50%;
+}
+
+.baner:hover{
+    transform: translate(50px) rotate(360deg);
+}
+.container{
+    width: 100%;
+}
+
+.football img{
+        margin-left:-660px;
+        
+    }
+    footer{
+        margin-top: 40px;
+    
+    }
+}
+}
+
 
 
 
