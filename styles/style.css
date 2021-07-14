@@ -1,0 +1,77 @@
+/* fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Niconne&family=Poppins&family=Roboto&display=swap');
+
+
+
+
+/* common styles or utilities  */
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color:whitesmoke ;
+}
+
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.col-2{
+    flex-basis: 50%;
+    min-width: 300px;
+
+}
+.heading:hover{
+    color: burlywood;
+}
+.col-2 img{
+    max-width: 90%;
+    padding: 50px 0;
+    transition: transform 1.3s ease-in .3s;
+}
+
+.baner:hover{
+    transform: translate(-230px) rotate(360deg);
+}
+
+.col-2 h1{
+    font-size: 66px;
+    color: whitesmoke;
+}
+
+.copa-america{
+    background-color: rgb(45,37,160);
+}
+
+.btn{
+    padding: 8px 30px;
+    background-color: rgb(219,6,41);
+    margin: 30px 0;
+    color: white;
+    display: inline-block;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.btn:hover{
+    background-color:rgb(223, 23, 223);
+}
+
+
+
+
+
+
+
+
+
